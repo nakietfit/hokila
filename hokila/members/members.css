@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("https://lh3.googleusercontent.com/EJ8SoRJIUwdd9o-yWsuUS0mDkvAlwINMNgdkrYvsZNqOVbD8BAkINlItN23BOO-f-RFbZQ778oThX8y2nee0w8DZETrPtWey1cl2lbM_OqUEMk4pHL-PxCsLlYL7AbOiO2sHiJU2mQ=w904-h678-no");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px 975px;
 }
 
 #navbar {
@@ -39,13 +43,26 @@ body {
     height: 100%;
 }
 
-#team-map-background img {
+.team-map-background img {
     width: 100%;
     height: 142%;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
     position: absolute;
     z-index: 1;
+}
+
+#hoang-background img {
+    width: 1500px;
+    height: 1500px;
+}
+
+#kiet-background img {
+    width: 1500px;
+    height: 2250px;
+}
+
+#lam-background img {
+    width: 1500px;
+    height: 2000px;
 }
 
 #logo {
